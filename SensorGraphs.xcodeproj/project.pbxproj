@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FAA7E9F1A403AFC00DDF5DB /* SensorSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA7E9E1A403AFC00DDF5DB /* SensorSelect.swift */; };
+		9FAA7EA31A403D0500DDF5DB /* SelectSensorNode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FAA7EA21A403D0500DDF5DB /* SelectSensorNode.xib */; };
+		9FAA7EA51A403D5900DDF5DB /* SelectSensorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA7EA41A403D5900DDF5DB /* SelectSensorNode.swift */; };
 		9FE0CF1D1A4021C200327273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CF1C1A4021C200327273 /* AppDelegate.swift */; };
 		9FE0CF1F1A4021C200327273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CF1E1A4021C200327273 /* ViewController.swift */; };
 		9FE0CF221A4021C200327273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE0CF201A4021C200327273 /* Main.storyboard */; };
 		9FE0CF241A4021C200327273 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE0CF231A4021C200327273 /* Images.xcassets */; };
 		9FE0CF271A4021C200327273 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE0CF251A4021C200327273 /* LaunchScreen.xib */; };
 		9FE0CF331A4021C300327273 /* SensorGraphsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CF321A4021C300327273 /* SensorGraphsTests.swift */; };
+		9FE0CF401A4025C200327273 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CF3D1A4025C200327273 /* Chart.swift */; };
+		9FE0CF411A4025C200327273 /* ChartColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CF3E1A4025C200327273 /* ChartColors.swift */; };
+		9FE0CF421A4025C200327273 /* ChartSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CF3F1A4025C200327273 /* ChartSeries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9FAA7E9E1A403AFC00DDF5DB /* SensorSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorSelect.swift; sourceTree = "<group>"; };
+		9FAA7EA21A403D0500DDF5DB /* SelectSensorNode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectSensorNode.xib; path = ../SelectSensorNode.xib; sourceTree = "<group>"; };
+		9FAA7EA41A403D5900DDF5DB /* SelectSensorNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSensorNode.swift; sourceTree = "<group>"; };
 		9FE0CF171A4021C200327273 /* SensorGraphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorGraphs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE0CF1B1A4021C200327273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FE0CF1C1A4021C200327273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,9 @@
 		9FE0CF2C1A4021C200327273 /* SensorGraphsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorGraphsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE0CF311A4021C300327273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FE0CF321A4021C300327273 /* SensorGraphsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorGraphsTests.swift; sourceTree = "<group>"; };
+		9FE0CF3D1A4025C200327273 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		9FE0CF3E1A4025C200327273 /* ChartColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartColors.swift; sourceTree = "<group>"; };
+		9FE0CF3F1A4025C200327273 /* ChartSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSeries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +89,12 @@
 		9FE0CF191A4021C200327273 /* SensorGraphs */ = {
 			isa = PBXGroup;
 			children = (
+				9FAA7EA21A403D0500DDF5DB /* SelectSensorNode.xib */,
+				9FAA7EA41A403D5900DDF5DB /* SelectSensorNode.swift */,
+				9FE0CF3C1A4025C200327273 /* Chart */,
 				9FE0CF1C1A4021C200327273 /* AppDelegate.swift */,
 				9FE0CF1E1A4021C200327273 /* ViewController.swift */,
+				9FAA7E9E1A403AFC00DDF5DB /* SensorSelect.swift */,
 				9FE0CF201A4021C200327273 /* Main.storyboard */,
 				9FE0CF231A4021C200327273 /* Images.xcassets */,
 				9FE0CF251A4021C200327273 /* LaunchScreen.xib */,
@@ -110,6 +126,16 @@
 				9FE0CF311A4021C300327273 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FE0CF3C1A4025C200327273 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				9FE0CF3D1A4025C200327273 /* Chart.swift */,
+				9FE0CF3E1A4025C200327273 /* ChartColors.swift */,
+				9FE0CF3F1A4025C200327273 /* ChartSeries.swift */,
+			);
+			path = Chart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FE0CF221A4021C200327273 /* Main.storyboard in Resources */,
+				9FAA7EA31A403D0500DDF5DB /* SelectSensorNode.xib in Resources */,
 				9FE0CF271A4021C200327273 /* LaunchScreen.xib in Resources */,
 				9FE0CF241A4021C200327273 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE0CF411A4025C200327273 /* ChartColors.swift in Sources */,
+				9FAA7E9F1A403AFC00DDF5DB /* SensorSelect.swift in Sources */,
 				9FE0CF1F1A4021C200327273 /* ViewController.swift in Sources */,
+				9FE0CF421A4025C200327273 /* ChartSeries.swift in Sources */,
 				9FE0CF1D1A4021C200327273 /* AppDelegate.swift in Sources */,
+				9FAA7EA51A403D5900DDF5DB /* SelectSensorNode.swift in Sources */,
+				9FE0CF401A4025C200327273 /* Chart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				9FE0CF381A4021C300327273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FE0CF391A4021C300327273 /* Build configuration list for PBXNativeTarget "SensorGraphsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				9FE0CF3B1A4021C300327273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
